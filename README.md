@@ -9,6 +9,12 @@ retrieved context, with conversation memory across turns.
 > documents retrieved at query time, instead of relying only on what's
 > baked into the model's weights.
 
+## Showcase
+
+Read the case study: **[samguan2020.github.io/conversational-rag-assistant](https://samguan2020.github.io/conversational-rag-assistant/)**
+
+The page source is [`docs/index.html`](docs/index.html), served by GitHub Pages.
+
 ## How it works
 
 1. **Ingest** (`POST /rags/docs`) — upload a PDF or TXT file for a channel.
